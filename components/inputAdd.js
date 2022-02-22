@@ -9,6 +9,7 @@ const InputAdd = () => {
   }
   const handleSubmit=(e)=>{
     e.preventDefault();
+    setTodo('')
     addTodo(todo)
   }
   return (
